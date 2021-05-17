@@ -1,0 +1,72 @@
+To do list for OOP Concept(Friday)
+1.Constructor
+2. Static Block
+3. All four OOP Concept
+4. Access modifier and final keyword
+
+Homework 05/04/2021
+    1.Fix  inheritence inclass activity
+    2.GUI - Interface
+
+    Exception Handling
+
+    error  vs exception
+    exception: can be handled
+    error: fatal and application times out
+
+    mechanism that handles runtime errors so  that  normal
+    flow of application can be  maintained
+
+    exception: event that disrupts the normal flow of  the
+    program
+    object thrown at runtime
+
+    EH allows one to maintaint normal  flow of application
+
+    throwable class is root   class of java exception hierachy
+    throwable is inherited by error and  exception
+
+    1. Error
+        a. stack overflow
+        b.Virtual machine
+        c.Out of memory
+
+    2. Exception
+        a.IO
+        b.SQL
+        c. Class not  found
+
+     Types  of exceptions
+        1. Checked
+            inherit throwable class
+            checked at compile time (IO,SQL, and Class not found)
+        2. Unchecked
+            inherit Runtime  Exception
+                checked at runtime (ArrayIndexOutOfBound etc)
+         3. Error is irrecoverable
+
+      Java Exception Keywords
+
+      try: specifies block where we should place exception code
+            must be followed by catch or finally
+            if  try is executed (code  works)  only the try
+            will run, not the catch
+
+      catch(Exception e):  used to handle  exception
+              must be preceded  by try block
+              can be followed by finally block
+
+      finally: used to  execute important code of  program
+                executed wether exce ption is  handled or not
+
+      throw: used to throw an exception
+
+      throws: used to declare exceptions
+               specifies that there may occur an exception
+               in  the method
+               always used  as method signature
+
+
+
+
+    3.Try Catch  Block
